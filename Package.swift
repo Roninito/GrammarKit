@@ -1,4 +1,4 @@
-// swift-tools-version:5.1
+// swift-tools-version:5.3.0
 // The swift-tools-version declares the minimum version of Swift required to build this package.
 
 import PackageDescription
@@ -6,7 +6,7 @@ import PackageDescription
 let package = Package(
     name: "GrammarKit",
     platforms: [
-        .macOS("10.15"), .iOS("13.0"),
+        .macOS("11"), .iOS("14.0"),
     ],
     products: [
         // Products define the executables and libraries produced by a package, and make them visible to other packages.
